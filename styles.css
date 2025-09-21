@@ -1,0 +1,87 @@
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background: linear-gradient(30deg, #aefcfc, #f1f3f4, #2980b9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+/* Quote Box */
+.quote-box {
+  background: #ffffff;
+  padding: 2rem 2.5rem;
+  max-width: 450px;
+  width: 70%;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.quote-box:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.16);
+}
+
+/* Quote Text */
+.quote-text {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+/* Author */
+.quote-author {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+/* Button */
+.new-quote-btn {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 0.65rem 1.5rem;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.new-quote-btn:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+
+/* Fade-in animation */
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(10px);}
+  100% { opacity: 1; transform: translateY(0);}
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 500px) {
+  .quote-box {
+    padding: 2rem 3rem;
+  }
+
+  .quote-text {
+    font-size: 1rem;
+  }
+
+  .quote-author {
+    font-size: 0.9rem;
+  }
+
+  .new-quote-btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.95rem;
+  }
+}
