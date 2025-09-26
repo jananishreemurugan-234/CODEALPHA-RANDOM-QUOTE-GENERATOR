@@ -38,7 +38,7 @@ which returns a random quote as JSON.
 
 1. Clone the repository:
 
-`git clone https://github.com/your-username/random-quote-generator.git`
+`git clone https://github.com/jananishreemurugan-234/CODEALPHA-RANDOM-QUOTE-GENERATOR.git`
 
 `cd random-quote-generator`
 
