@@ -26,13 +26,11 @@ The frontend is designed for simplicity and readability:
 
 ## How It Works
 1. The backend (server.js) runs an Express server and reads quotes from quotes.json.
-2. The server exposes an API endpoint:/api/random-quote
-
-which returns a random quote as JSON.
-
-3. The frontend React app (App.jsx) fetches quotes from the backend API.
-4. Users can click “New Quote” to trigger another API call and load a different quote.
-5. With .env and config.js, the app can be configured to run on localhost or a local IP address for mobile access.
+2. The server exposes an API endpoint:
+3. /api/random-quote which returns a random quote as JSON.
+4. The frontend React app (App.jsx) fetches quotes from the backend API.
+5. Users can click “New Quote” to trigger another API call and load a different quote.
+6. With .env and config.js, the app can be configured to run on localhost or a local IP address for mobile access.
 
 ## Installation and Setup
 
