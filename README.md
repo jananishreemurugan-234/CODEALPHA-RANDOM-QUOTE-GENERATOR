@@ -90,7 +90,7 @@ Run the server:
 
 `|   |___.env`
 
-`│
+`│`
 
 `├── frontend/`
 
